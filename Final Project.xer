@@ -1,0 +1,397 @@
+ERMHDR	15.2	2022-12-16	Project	ADMIN	Mrunali	dbxDatabaseNoName	Project Management	USD
+%T	CURRTYPE
+%F	curr_id	decimal_digit_cnt	curr_symbol	decimal_symbol	digit_group_symbol	pos_curr_fmt_type	neg_curr_fmt_type	curr_type	curr_short_name	group_digit_cnt	base_exch_rate
+%R	1	2	$	.	,	#1.1	(#1.1)	US Dollar	USD	3	1
+%R	13	2	£	.	,	#1.1	(#1.1)	Pound Sterling	GBP	3	0.618603
+%R	14	2	¥	.	,	#1.1	(#1.1)	Japanese Yen	JPY	3	91.2708
+%R	15	2	€	.	,	#1.1	(#1.1)	Euro	EUR	3	0.689711
+%R	16	2	¥	.	,	#1.1	(#1.1)	Chinese Yuan Renminbi	CNY	3	6.82502
+%R	17	2	$	.	,	#1.1	(#1.1)	Canadian Dollar	CAD	3	1.03757
+%R	18	2	RUB	.	,	#1.1	(#1.1)	Russian Ruble	RUB	3	0.033948
+%R	19	2	$	.	,	#1.1	(#1.1)	Argentine Peso	ARS	3	3.79109
+%R	20	2	$b	.	,	#1.1	(#1.1)	Bolivian Boliviano	BOB	3	7.5708
+%R	21	2	R$	.	,	#1.1	(#1.1)	Brazilian Real	BRL	3	1.7665
+%R	22	2	$	.	,	#1.1	(#1.1)	Chilean Peso	CLP	3	507.58
+%R	23	2	$	.	,	#1.1	(#1.1)	Columbian Peso	COP	3	1957.74
+%R	24	2	$	.	,	#1.1	(#1.1)	Guyanese Dollar	GYD	3	202.95
+%R	25	2	Gs	.	,	#1.1	(#1.1)	Paraguayan Guarani	PYG	3	4640
+%R	26	2	S/.	.	,	#1.1	(#1.1)	Peruvian Nuevo Sol	PEN	3	2.7244
+%R	27	2	$	.	,	#1.1	(#1.1)	Surinamese Dollar	SRD	3	2.8
+%R	28	2	Bs	.	,	#1.1	(#1.1)	Venezuelan Bolivar Fuerto	VEF	3	2.1446
+%R	29	2	$U	.	,	#1.1	(#1.1)	Uruguayan Peso	UYU	3	21.247
+%T	FINTMPL
+%F	fintmpl_id	fintmpl_name	default_flag
+%R	1	Calendar	Y
+%T	OBS
+%F	obs_id	parent_obs_id	guid	seq_num	obs_name	obs_descr
+%R	540			0	Enterprise	<html>  <head>      </head>  <body bgcolor=""#ffffff"">    Enterprise  </body></html>
+%T	PROJECT
+%F	proj_id	fy_start_month_num	rsrc_self_add_flag	allow_complete_flag	rsrc_multi_assign_flag	checkout_flag	project_flag	step_complete_flag	cost_qty_recalc_flag	batch_sum_flag	name_sep_char	def_complete_pct_type	proj_short_name	acct_id	orig_proj_id	source_proj_id	base_type_id	clndr_id	sum_base_proj_id	task_code_base	task_code_step	priority_num	wbs_max_sum_level	strgy_priority_num	last_checksum	critical_drtn_hr_cnt	def_cost_per_qty	last_recalc_date	plan_start_date	plan_end_date	scd_end_date	add_date	last_tasksum_date	fcst_start_date	def_duration_type	task_code_prefix	guid	def_qty_type	add_by_name	web_local_root_path	proj_url	def_rate_type	add_act_remain_flag	act_this_per_link_flag	def_task_type	act_pct_link_flag	critical_path_type	task_code_prefix_flag	def_rollup_dates_flag	use_project_baseline_flag	rem_target_link_flag	reset_planned_flag	allow_neg_act_flag	sum_assign_level	last_fin_dates_id	fintmpl_id	last_baseline_update_date	cr_external_key	apply_actuals_date	location_id	loaded_scope_level	export_flag	new_fin_dates_id	baselines_to_export	baseline_names_to_export	next_data_date	close_period_flag	sum_refresh_date	trsrcsum_loaded	sumtask_loaded
+%R	4517	1	Y	Y	Y	N	Y	N	N	Y	.	CP_Drtn	Final Project					178		1000	10	10	2	500		0	0.0000	2022-12-01 00:00	2022-12-01 00:00		2023-06-23 08:00	2022-12-16 03:20			DT_FixedDUR2	A	xF3ngvF8RU2FZj4I4jiJ7w	QT_Hour	ADMIN			COST_PER_QTY	N	Y	TT_Task	Y	CT_TotFloat	Y	Y	Y	Y	N	N	SL_Taskrsrc		1					7	Y								
+%T	CALENDAR
+%F	clndr_id	default_flag	clndr_name	proj_id	base_clndr_id	last_chng_date	clndr_type	day_hr_cnt	week_hr_cnt	month_hr_cnt	year_hr_cnt	rsrc_private	clndr_data
+%R	178	Y	Corporate - Standard Full Time			2000-05-23 16:14	CA_Base	8	40	172	2000	N	(0||CalendarData()((0||DaysOfWeek()((0||1()())(0||2()((0||0(f|16:00|s|08:00)())))(0||3()((0||0(f|16:00|s|08:00)())))(0||4()((0||0(f|16:00|s|08:00)())))(0||5()((0||0(f|16:00|s|08:00)())))(0||6()((0||0(f|16:00|s|08:00)())))(0||7()())))(0||Exceptions()((0||0(d|41519)())(0||1(d|41155)())(0||2(d|40364)())(0||3(d|40910)())(0||4(d|41633)())(0||5(d|41094)())(0||6(d|40427)())(0||7(d|40536)())(0||8(d|41235)())(0||9(d|40179)())(0||10(d|40903)())(0||11(d|40543)())(0||12(d|40791)())(0||13(d|41421)())(0||14(d|40728)())(0||15(d|41275)())(0||16(d|41606)())(0||17(d|40329)())(0||18(d|41459)())(0||19(d|40871)())(0||20(d|40507)())(0||21(d|41057)())(0||22(d|40693)())(0||23(d|41268)())))))
+%T	SCHEDOPTIONS
+%F	schedoptions_id	proj_id	sched_outer_depend_type	sched_open_critical_flag	sched_lag_early_start_flag	sched_retained_logic	sched_setplantoforecast	sched_float_type	sched_calendar_on_relationship_lag	sched_use_expect_end_flag	sched_progress_override	level_float_thrs_cnt	level_outer_assign_flag	level_outer_assign_priority	level_over_alloc_pct	level_within_float_flag	level_keep_sched_date_flag	level_all_rsrc_flag	sched_use_project_end_date_for_float	enable_multiple_longest_path_calc	limit_multiple_longest_path_calc	max_multiple_longest_path	use_total_float_multiple_longest_paths	key_activity_for_multiple_longest_paths	LevelPriorityList
+%R	1	4517	SD_Both	N	Y	Y	N	FT_FF	rcal_Predecessor	Y	N	0	N	5	25	N	Y	Y	Y	N	Y	10	Y		priority_type,ASC_BY_FIELD/ASC
+%T	PROJWBS
+%F	wbs_id	proj_id	obs_id	seq_num	est_wt	proj_node_flag	sum_data_flag	status_code	wbs_short_name	wbs_name	phase_id	parent_wbs_id	ev_user_pct	ev_etc_user_value	orig_cost	indep_remain_total_cost	ann_dscnt_rate_pct	dscnt_period_type	indep_remain_work_qty	anticip_start_date	anticip_end_date	ev_compute_type	ev_etc_compute_type	guid	tmpl_guid	plan_open_state
+%R	26116	4517	540	11	1	Y	N	WS_Open	Final Project	Bank Building		3063	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	uzP5q3uSpEWxIjpXEymzSA		
+%R	26117	4517	540	1	1	N	N	WS_Open	1	Project Milestone		26116	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	oJioX7GSPE6QK2dOgbz5Nw		
+%R	26118	4517	540	2	1	N	N	WS_Open	2	Pre Construction		26116	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	I1J8Ahe7+0CiwWWDc6aI6Q		
+%R	26119	4517	540	3	1	N	N	WS_Open	3	Construction		26116	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	+E4otC8xrkC7OP7758Qxhg		
+%R	26120	4517	540	5	1	N	N	WS_Open	4	Post Construction		26116	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	qJxevKLQXkaDxS4CXO8RKA		
+%R	26121	4517	540	1	1	N	N	WS_Open	1	Site Work		26119	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	mBJONIKQo0e/rQXjki8y4A		
+%R	26122	4517	540	2	1	N	N	WS_Open	2	Sub-Structure		26119	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	Q2VOiJz6PU6m/4j+I8ZNxA		
+%R	26123	4517	540	3	1	N	N	WS_Open	3	Super-Structure		26119	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	taVXfqMtJEWBOkI1b19krQ		
+%R	26124	4517	540	5	1	N	N	WS_Open	4	Rough In		26119	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	WujiUAxFZEiILaClnHVATw		
+%R	26125	4517	540	6	1	N	N	WS_Open	5	Enclosure		26119	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	FDqTafjZuUGC6IR5bRdBDw		
+%R	26126	4517	540	8	1	N	N	WS_Open	7	Finishes		26119	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	v6VEvCrDvkWTaMwUgyxiuw		
+%R	26127	4517	540	10	1	N	N	WS_Open	8	Fixtures		26119	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	l0bWkvjh4k2xl+TR3UJOJw		
+%R	26128	4517	540	1	1	N	N	WS_Open	1	Initial Site Work		26121	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	kgRz8F4CSkW3j+VmnGIBIg		
+%R	26129	4517	540	2	1	N	N	WS_Open	2	Site Utilities		26121	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	BhLhvTfzJ0WhvHjPey58Lg		
+%R	26130	4517	540	3	1	N	N	WS_Open	3	Final Sitework		26121	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	ueL9dLvel0WPNXCEsRPYZA		
+%R	26131	4517	540	1	1	N	N	WS_Open	1	Foundation		26122	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	r4Ai5PECz0iqLefHp/Zmiw		
+%R	26132	4517	540	1	1	N	N	WS_Open	1	Column		26123	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	n/f9MQVPC0OPt0XFEsW0rw		
+%R	26133	4517	540	2	1	N	N	WS_Open	2	Beam		26123	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	/3xEm3ZU+E68R26dUQjYcQ		
+%R	26134	4517	540	3	1	N	N	WS_Open	3	Roof		26123	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	k6theizO4UqQd8LgFA8GSQ		
+%R	26135	4517	540	4	1	N	N	WS_Open	4	Floor		26123	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	Nv7G3TlFjEKz4OcoK5d8Pw		
+%R	26136	4517	540	1	1	N	N	WS_Open	1	Exterior Walls		26125	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	NIgJ4Nk8c0Gd5tDI0q+oXw		
+%R	26137	4517	540	2	1	N	N	WS_Open	2	Interior Walls		26125	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	Y0fBdwuD0EKzjrrSbcK75g		
+%R	26138	4517	540	1	1	N	N	WS_Open	1	Mechanical		26124	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	Jp8wITeqek2Dc69dQXhObQ		
+%R	26139	4517	540	2	1	N	N	WS_Open	2	Plumbing		26124	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	mNQFGNqtIUS1S7n/x9CIkw		
+%R	26140	4517	540	3	1	N	N	WS_Open	3	Electrical		26124	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	RGqV+tdBo06BWUBVo0pCqA		
+%R	26141	4517	540	1	1	N	N	WS_Open	1	Interior		26126	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	37dZk+GjZ0W+0AIYUIaa3A		
+%R	26142	4517	540	2	1	N	N	WS_Open	2	Exterior		26126	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	2XgAa0S1tEi68wKuKSigQg		
+%R	26143	4517	540	3	1	N	N	WS_Open	3	Ceiling		26126	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	XrfUwg5alUaV0pAuX0qABQ		
+%R	26144	4517	540	4	1	N	N	WS_Open	4	Speciality Rough In		26124	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	9G/yYuYN20GcAdrK061xAw		
+%R	26145	4517	540	4	1	N	N	WS_Open	4	Floor		26126	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	6dfGCgP9QkSjekPwtFi0hA		
+%R	26146	4517	540	5	1	N	N	WS_Open	5	Furniture		26126	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	MdRcVFUPiE2FXx6p/L8oIg		
+%R	26147	4517	540	1	1	N	N	WS_Open	1	Mechanical		26127	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	XGdVucvVIkG5ROkDUsLgrA		
+%R	26148	4517	540	2	1	N	N	WS_Open	2	Electrical		26127	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	92Hj2Qd3yU60+dtFU5EG8g		
+%R	26149	4517	540	3	1	N	N	WS_Open	3	Plumbing		26127	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	3+EVNbfmxkCbEsdT18rtCQ		
+%R	26150	4517	540	5	1	N	N	WS_Open	5	Stairs		26123	6	0.88	0.0000	0.0000						EC_Cmp_pct	EE_Rem_hr	g8pT2eXys0KtZWpUtk0ZLg		
+%T	TASK
+%F	task_id	proj_id	wbs_id	clndr_id	phys_complete_pct	rev_fdbk_flag	est_wt	lock_plan_flag	auto_compute_act_flag	complete_pct_type	task_type	duration_type	status_code	task_code	task_name	rsrc_id	total_float_hr_cnt	free_float_hr_cnt	remain_drtn_hr_cnt	act_work_qty	remain_work_qty	target_work_qty	target_drtn_hr_cnt	target_equip_qty	act_equip_qty	remain_equip_qty	cstr_date	act_start_date	act_end_date	late_start_date	late_end_date	expect_end_date	early_start_date	early_end_date	restart_date	reend_date	target_start_date	target_end_date	rem_late_start_date	rem_late_end_date	cstr_type	priority_type	suspend_date	resume_date	float_path	float_path_order	guid	tmpl_guid	cstr_date2	cstr_type2	driving_path_flag	act_this_per_work_qty	act_this_per_equip_qty	external_early_start_date	external_late_end_date	create_date	update_date	create_user	update_user	location_id	crt_path_num
+%R	102042	4517	26117	178	0	N	1	N	N	CP_Drtn	TT_Mile	DT_FixedDrtn	TK_NotStart	A1000	Contract Award		0	0	0	0	0	0	0	0	0	0				2022-11-30 16:00	2022-11-30 16:00		2022-12-01 08:00	2022-12-01 08:00	2022-12-01 08:00	2022-12-01 08:00	2022-12-01 08:00	2022-12-01 08:00	2022-11-30 16:00	2022-11-30 16:00		PT_Normal					kJOEWmhP5UKkqySVJAkE1A				Y	0	0			2022-12-14 20:37	2022-12-14 20:37				
+%R	102043	4517	26117	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1010	Notice to Proceed		0	0	0	0	0	0	0	0	0	0				2022-11-30 16:00	2022-11-30 16:00		2022-12-01 08:00	2022-12-01 08:00	2022-12-01 08:00	2022-12-01 08:00	2022-12-01 08:00	2022-12-01 08:00	2022-11-30 16:00	2022-11-30 16:00		PT_Normal					rWoHy41+Y0eShgNPzLadlQ				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102044	4517	26117	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1020	Project Start		0	0	0	0	0	0	0	0	0	0				2022-11-30 16:00	2022-11-30 16:00		2022-12-01 08:00	2022-12-01 08:00	2022-12-01 08:00	2022-12-01 08:00	2022-12-01 08:00	2022-12-01 08:00	2022-11-30 16:00	2022-11-30 16:00		PT_Normal					euhBM7nMC0KSYj+Zo0JiQA				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102045	4517	26117	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1030	Project Finish		0	0	0	0	0	0	0	0	0	0				2023-06-22 16:00	2023-06-22 16:00		2023-06-23 08:00	2023-06-23 08:00	2023-06-23 08:00	2023-06-23 08:00	2023-06-23 08:00	2023-06-23 08:00	2023-06-22 16:00	2023-06-22 16:00		PT_Normal					eJpFS5sbtU6JSObQe9vVQQ				Y	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102046	4517	26128	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1040	Clear Site		0	0	32	0	0	0	32	0	0	0				2022-12-01 08:00	2022-12-06 16:00		2022-12-01 08:00	2022-12-06 16:00	2022-12-01 08:00	2022-12-06 16:00	2022-12-01 08:00	2022-12-06 16:00	2022-12-01 08:00	2022-12-06 16:00		PT_Normal					cGVj7++YGU22a7J4MJnVHQ				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102047	4517	26128	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1050	Onsite Marking		0	0	8	0	0	0	8	0	0	0				2022-12-07 08:00	2022-12-07 16:00		2022-12-07 08:00	2022-12-07 16:00	2022-12-07 08:00	2022-12-07 16:00	2022-12-07 08:00	2022-12-07 16:00	2022-12-07 08:00	2022-12-07 16:00		PT_Normal					w7bLN7LRh0Ccme43LBHyjQ				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102048	4517	26129	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1060	Gas Final site work		0	0	64	0	0	0	64	0	0	0				2023-05-15 08:00	2023-05-24 16:00		2023-05-15 08:00	2023-05-24 16:00	2023-05-15 08:00	2023-05-24 16:00	2023-05-15 08:00	2023-05-24 16:00	2023-05-15 08:00	2023-05-24 16:00		PT_Normal					gekz1ok8qUueEYOmv5ILhw				Y	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102049	4517	26129	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1070	Plumbing Final site work		0	0	48	0	0	0	48	0	0	0				2023-05-05 08:00	2023-05-12 16:00		2023-05-05 08:00	2023-05-12 16:00	2023-05-05 08:00	2023-05-12 16:00	2023-05-05 08:00	2023-05-12 16:00	2023-05-05 08:00	2023-05-12 16:00		PT_Normal					5nOS1k2mV0mFVi5+6DtsoA				Y	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102050	4517	26129	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1080	Electrical Final site work		0	0	32	0	0	0	32	0	0	0				2023-05-25 08:00	2023-05-30 16:00		2023-05-25 08:00	2023-05-30 16:00	2023-05-25 08:00	2023-05-30 16:00	2023-05-25 08:00	2023-05-30 16:00	2023-05-25 08:00	2023-05-30 16:00		PT_Normal					K14ibi+x3UyUUYo3Lkqsng				Y	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102051	4517	26128	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1090	Site Grading		0	0	8	0	0	0	8	0	0	0				2022-12-08 08:00	2022-12-08 16:00		2022-12-08 08:00	2022-12-08 16:00	2022-12-08 08:00	2022-12-08 16:00	2022-12-08 08:00	2022-12-08 16:00	2022-12-08 08:00	2022-12-08 16:00		PT_Normal					XKjN7Lur3k2qmuOuJMi2tA				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102052	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1100	Excavation from grid 1 to 4		0	0	40	0	0	0	40	0	0	0				2022-12-09 08:00	2022-12-15 16:00		2022-12-09 08:00	2022-12-15 16:00	2022-12-09 08:00	2022-12-15 16:00	2022-12-09 08:00	2022-12-15 16:00	2022-12-09 08:00	2022-12-15 16:00		PT_Normal					MmUskSb490OZcjDvqLl5rw				Y	0	0			2022-12-14 22:37	2022-12-14 22:41				
+%R	102053	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1110	Stem Footing from grid 1 to 4		0	0	8	0	0	0	8	0	0	0				2022-12-16 08:00	2022-12-16 16:00		2022-12-16 08:00	2022-12-16 16:00	2022-12-16 08:00	2022-12-16 16:00	2022-12-16 08:00	2022-12-16 16:00	2022-12-16 08:00	2022-12-16 16:00		PT_Normal					ca6/3zVSGUWLt2iqy2K78A				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102054	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1120	Reinforcement from grid 1 to 4		0	0	32	0	0	0	32	0	0	0				2022-12-19 08:00	2022-12-22 16:00		2022-12-19 08:00	2022-12-22 16:00	2022-12-19 08:00	2022-12-22 16:00	2022-12-19 08:00	2022-12-22 16:00	2022-12-19 08:00	2022-12-22 16:00		PT_Normal					auCciX92N0CL+7rcLlt0Fg				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102055	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1130	Shuttering from grid 1 to 4		0	0	24	0	0	0	24	0	0	0				2022-12-23 08:00	2022-12-27 16:00		2022-12-23 08:00	2022-12-27 16:00	2022-12-23 08:00	2022-12-27 16:00	2022-12-23 08:00	2022-12-27 16:00	2022-12-23 08:00	2022-12-27 16:00		PT_Normal					yH44/XTI1Uef9E+nFckfmA				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102056	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1140	Sleeves from grid 1 to 4		0	0	0	0	0	0	0	0	0	0				2022-12-27 16:00	2022-12-27 16:00		2022-12-28 08:00	2022-12-28 08:00	2022-12-28 08:00	2022-12-28 08:00	2022-12-28 08:00	2022-12-28 08:00	2022-12-27 16:00	2022-12-27 16:00		PT_Normal					Fkyiccecw0eArsW0CZWhJg				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102057	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1150	Concrete Pouring from grid 1 to 4		0	0	8	0	0	0	8	0	0	0				2022-12-28 08:00	2022-12-28 16:00		2022-12-28 08:00	2022-12-28 16:00	2022-12-28 08:00	2022-12-28 16:00	2022-12-28 08:00	2022-12-28 16:00	2022-12-28 08:00	2022-12-28 16:00		PT_Normal					tcgJrowc9ku//eFLLDwEYA				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102058	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1160	Curing from grid 1 to 4		0	0	40	0	0	0	40	0	0	0				2022-12-29 08:00	2023-01-04 16:00		2022-12-29 08:00	2023-01-04 16:00	2022-12-29 08:00	2023-01-04 16:00	2022-12-29 08:00	2023-01-04 16:00	2022-12-29 08:00	2023-01-04 16:00		PT_Normal					w+TgddHYr0CcGQxjRdjmhA				Y	0	0			2022-12-14 22:59	2022-12-14 22:59				
+%R	102059	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1170	De-Shuttering from grid 1 to 4		32	0	8	0	0	0	8	0	0	0				2023-01-11 08:00	2023-01-11 16:00		2023-01-05 08:00	2023-01-05 16:00	2023-01-05 08:00	2023-01-05 16:00	2023-01-05 08:00	2023-01-05 16:00	2023-01-11 08:00	2023-01-11 16:00		PT_Normal					yfT8JvArvUSVReHWpbcUAw				N	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102060	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1180	Excavation from grid 4 to 7		0	0	40	0	0	0	40	0	0	0				2022-12-16 08:00	2022-12-22 16:00		2022-12-16 08:00	2022-12-22 16:00	2022-12-16 08:00	2022-12-22 16:00	2022-12-16 08:00	2022-12-22 16:00	2022-12-16 08:00	2022-12-22 16:00		PT_Normal					o+KIffNRlEeJcCaeIJUIBw				Y	0	0			2022-12-14 22:59	2022-12-14 22:59				
+%R	102061	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1190	Stem Footing from grid 4 to 7		0	0	8	0	0	0	8	0	0	0				2022-12-23 08:00	2022-12-23 16:00		2022-12-23 08:00	2022-12-23 16:00	2022-12-23 08:00	2022-12-23 16:00	2022-12-23 08:00	2022-12-23 16:00	2022-12-23 08:00	2022-12-23 16:00		PT_Normal					Ns4DPY9y90m0cj4tJz6JWA				Y	0	0			2022-12-16 03:20	2022-12-16 05:07				
+%R	102062	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1200	Reinforcement from grid 4 to 7		0	0	32	0	0	0	32	0	0	0				2022-12-26 08:00	2022-12-29 16:00		2022-12-26 08:00	2022-12-29 16:00	2022-12-26 08:00	2022-12-29 16:00	2022-12-26 08:00	2022-12-29 16:00	2022-12-26 08:00	2022-12-29 16:00		PT_Normal					2dl0/dTCOUyxHgGfngF1Jw				Y	0	0			2022-12-16 03:20	2022-12-16 05:07				
+%R	102063	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1210	Shuttering from grid 4 to 7		0	0	24	0	0	0	24	0	0	0				2022-12-30 08:00	2023-01-03 16:00		2022-12-30 08:00	2023-01-03 16:00	2022-12-30 08:00	2023-01-03 16:00	2022-12-30 08:00	2023-01-03 16:00	2022-12-30 08:00	2023-01-03 16:00		PT_Normal					vEDv6a/1/kuFP6Ti/fm+Yw				Y	0	0			2022-12-16 03:20	2022-12-16 05:07				
+%R	102064	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1220	Sleeves from grid 4 to 7		0	0	0	0	0	0	0	0	0	0				2023-01-03 16:00	2023-01-03 16:00		2023-01-04 08:00	2023-01-04 08:00	2023-01-04 08:00	2023-01-04 08:00	2023-01-04 08:00	2023-01-04 08:00	2023-01-03 16:00	2023-01-03 16:00		PT_Normal					thH8po2U7UaEgh2z5kQYxg				Y	0	0			2022-12-16 03:20	2022-12-16 05:07				
+%R	102065	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1230	Concrete Pouring from grid 4 to 7		0	0	8	0	0	0	8	0	0	0				2023-01-04 08:00	2023-01-04 16:00		2023-01-04 08:00	2023-01-04 16:00	2023-01-04 08:00	2023-01-04 16:00	2023-01-04 08:00	2023-01-04 16:00	2023-01-04 08:00	2023-01-04 16:00		PT_Normal					OUdnug8DqU2JVyUzFh5KeA				Y	0	0			2022-12-16 03:20	2022-12-16 05:07				
+%R	102066	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1240	Curing from grid 4 to 7		0	0	40	0	0	0	40	0	0	0				2023-01-05 08:00	2023-01-11 16:00		2023-01-05 08:00	2023-01-11 16:00	2023-01-05 08:00	2023-01-11 16:00	2023-01-05 08:00	2023-01-11 16:00	2023-01-05 08:00	2023-01-11 16:00		PT_Normal					FgGQwJIH+k66jHiIUMfzLA				Y	0	0			2022-12-16 03:20	2022-12-16 05:07				
+%R	102067	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1250	De-Shuttering from grid 4 to 7		0	0	8	0	0	0	8	0	0	0				2023-01-12 08:00	2023-01-12 16:00		2023-01-12 08:00	2023-01-12 16:00	2023-01-12 08:00	2023-01-12 16:00	2023-01-12 08:00	2023-01-12 16:00	2023-01-12 08:00	2023-01-12 16:00		PT_Normal					eU0c+dPjp0ShwbTpsipBdw				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102068	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1260	Base Plate		88	88	0	0	0	0	0	0	0	0				2023-01-20 16:00	2023-01-20 16:00		2023-01-06 08:00	2023-01-06 08:00	2023-01-06 08:00	2023-01-06 08:00	2023-01-06 08:00	2023-01-06 08:00	2023-01-20 16:00	2023-01-20 16:00		PT_Normal					nuB5EDcMeEyuyUvs6sLL4A				N	0	0			2022-12-16 03:20	2022-12-16 05:07				
+%R	102069	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1270	Backfill		0	0	16	0	0	0	16	0	0	0				2023-01-13 08:00	2023-01-16 16:00		2023-01-13 08:00	2023-01-16 16:00	2023-01-13 08:00	2023-01-16 16:00	2023-01-13 08:00	2023-01-16 16:00	2023-01-13 08:00	2023-01-16 16:00		PT_Normal					FAerQWnVikmxz5vY6z1K8w				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102070	4517	26131	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1280	4mm thick crushed stone		0	0	32	0	0	0	32	0	0	0				2023-01-17 08:00	2023-01-20 16:00		2023-01-17 08:00	2023-01-20 16:00	2023-01-17 08:00	2023-01-20 16:00	2023-01-17 08:00	2023-01-20 16:00	2023-01-17 08:00	2023-01-20 16:00		PT_Normal					QNOkdjaVT0Sc5lEjyYaW6A				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102071	4517	26132	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1290	Erection of column from grid 1 to 4		0	0	40	0	0	0	40	0	0	0				2023-01-23 08:00	2023-01-27 16:00		2023-01-23 08:00	2023-01-27 16:00	2023-01-23 08:00	2023-01-27 16:00	2023-01-23 08:00	2023-01-27 16:00	2023-01-23 08:00	2023-01-27 16:00		PT_Normal					mpRivfp9D0+/t1IrTMiVtQ				Y	0	0			2022-12-14 23:32	2022-12-15 00:00				
+%R	102072	4517	26132	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1300	Erection of column from grid 5 to 7		0	0	40	0	0	0	40	0	0	0				2023-01-30 08:00	2023-02-03 16:00		2023-01-30 08:00	2023-02-03 16:00	2023-01-30 08:00	2023-02-03 16:00	2023-01-30 08:00	2023-02-03 16:00	2023-01-30 08:00	2023-02-03 16:00		PT_Normal					l0ML9i8/c0y4ENHp+VIn9Q				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102073	4517	26133	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1310	Low Roof-Framing-peripheral beam		0	0	24	0	0	0	24	0	0	0				2023-02-06 08:00	2023-02-08 16:00		2023-02-06 08:00	2023-02-08 16:00	2023-02-06 08:00	2023-02-08 16:00	2023-02-06 08:00	2023-02-08 16:00	2023-02-06 08:00	2023-02-08 16:00		PT_Normal					iJ79f7uW2kup30Oc6aMJFw				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102074	4517	26133	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1320	Low Roof-Framing-Girder		0	0	16	0	0	0	16	0	0	0				2023-02-09 08:00	2023-02-10 16:00		2023-02-09 08:00	2023-02-10 16:00	2023-02-09 08:00	2023-02-10 16:00	2023-02-09 08:00	2023-02-10 16:00	2023-02-09 08:00	2023-02-10 16:00		PT_Normal					JlYT+gRuvUSgi2sDppvGdQ				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102075	4517	26133	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1330	Low Roof-Installing Joist in North Phase		0	0	32	0	0	0	32	0	0	0				2023-02-13 08:00	2023-02-16 16:00		2023-02-13 08:00	2023-02-16 16:00	2023-02-13 08:00	2023-02-16 16:00	2023-02-13 08:00	2023-02-16 16:00	2023-02-13 08:00	2023-02-16 16:00		PT_Normal					uDoKPbec+Uep/fg5ovcyhw				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102076	4517	26133	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1340	Low Roof-Installing Joist in South Phase		0	0	32	0	0	0	32	0	0	0				2023-02-17 08:00	2023-02-22 16:00		2023-02-17 08:00	2023-02-22 16:00	2023-02-17 08:00	2023-02-22 16:00	2023-02-17 08:00	2023-02-22 16:00	2023-02-17 08:00	2023-02-22 16:00		PT_Normal					u47TjLbCBUOMWrznjH5T9Q				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102077	4517	26133	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1350	High Roof-Framing-peripheral beam		216	0	24	0	0	0	24	0	0	0				2023-04-03 08:00	2023-04-05 16:00		2023-02-23 08:00	2023-02-27 16:00	2023-02-23 08:00	2023-02-27 16:00	2023-02-23 08:00	2023-02-27 16:00	2023-04-03 08:00	2023-04-05 16:00		PT_Normal					BO2+tkx9SESDP26vUBFESw				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102078	4517	26133	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1360	High Roof-Framing-Girder		216	0	16	0	0	0	16	0	0	0				2023-04-06 08:00	2023-04-07 16:00		2023-02-28 08:00	2023-03-01 16:00	2023-02-28 08:00	2023-03-01 16:00	2023-02-28 08:00	2023-03-01 16:00	2023-04-06 08:00	2023-04-07 16:00		PT_Normal					TSs2ABm0f029Q17ZBEGF8A				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102079	4517	26133	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1390	Canopy-Framing pheripheral beam		216	0	24	0	0	0	24	0	0	0				2023-04-10 08:00	2023-04-12 16:00		2023-03-02 08:00	2023-03-06 16:00	2023-03-02 08:00	2023-03-06 16:00	2023-03-02 08:00	2023-03-06 16:00	2023-04-10 08:00	2023-04-12 16:00		PT_Normal					WPOhsipn5E2wVNl1kO0f3g				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102080	4517	26133	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1400	Canopy-Framing Girder		216	0	16	0	0	0	16	0	0	0				2023-04-13 08:00	2023-04-14 16:00		2023-03-07 08:00	2023-03-08 16:00	2023-03-07 08:00	2023-03-08 16:00	2023-03-07 08:00	2023-03-08 16:00	2023-04-13 08:00	2023-04-14 16:00		PT_Normal					yOvBGP1zRki6gqYZaxu0vw				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102081	4517	26133	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1430	Drive Through-Framing pheripheral beam		216	0	24	0	0	0	24	0	0	0				2023-04-17 08:00	2023-04-19 16:00		2023-03-09 08:00	2023-03-13 16:00	2023-03-09 08:00	2023-03-13 16:00	2023-03-09 08:00	2023-03-13 16:00	2023-04-17 08:00	2023-04-19 16:00		PT_Normal					Vf1VSgIkfkmPOa2ukwhDYA				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102082	4517	26133	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1440	Drive Through-Framing Girder		216	0	16	0	0	0	16	0	0	0				2023-04-20 08:00	2023-04-21 16:00		2023-03-14 08:00	2023-03-15 16:00	2023-03-14 08:00	2023-03-15 16:00	2023-03-14 08:00	2023-03-15 16:00	2023-04-20 08:00	2023-04-21 16:00		PT_Normal					CNmR1uD4DEOgx4LWQmb/QQ				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102083	4517	26134	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1470	Main Roof:Galvanized Roof Deck		0	0	32	0	0	0	32	0	0	0				2023-02-23 08:00	2023-02-28 16:00		2023-02-23 08:00	2023-02-28 16:00	2023-02-23 08:00	2023-02-28 16:00	2023-02-23 08:00	2023-02-28 16:00	2023-02-23 08:00	2023-02-28 16:00		PT_Normal					Nc2HgPWAwUKrwj9mySCMEA				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102084	4517	26134	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1480	Main Roof:6"" Mech. Fastened Polyiso Insulation		296	0	16	0	0	0	16	0	0	0				2023-04-21 08:00	2023-04-24 16:00		2023-03-01 08:00	2023-03-02 16:00	2023-03-01 08:00	2023-03-02 16:00	2023-03-01 08:00	2023-03-02 16:00	2023-04-21 08:00	2023-04-24 16:00		PT_Normal					MtpDzC3xpEia0BXMWvh+xw				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102085	4517	26134	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1490	Main Roof:1/2"" Mech. Fastened dense-deck cover board		544	0	16	0	0	0	16	0	0	0				2023-06-07 08:00	2023-06-08 16:00		2023-03-03 08:00	2023-03-06 16:00	2023-03-03 08:00	2023-03-06 16:00	2023-03-03 08:00	2023-03-06 16:00	2023-06-07 08:00	2023-06-08 16:00		PT_Normal					rWL/AnQJ70+T5EPY5JooIg				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102086	4517	26134	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1500	Main Roof:Fully adhered EPDM Membrane		544	240	16	0	0	0	16	0	0	0				2023-06-09 08:00	2023-06-12 16:00		2023-03-07 08:00	2023-03-08 16:00	2023-03-07 08:00	2023-03-08 16:00	2023-03-07 08:00	2023-03-08 16:00	2023-06-09 08:00	2023-06-12 16:00		PT_Normal					l2q5tLfO3kGtNN8WDq4hTA				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102087	4517	26134	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1510	High and Canopy Roof: Galvanized Roof Deck		240	0	24	0	0	0	24	0	0	0				2023-04-20 08:00	2023-04-24 16:00		2023-03-09 08:00	2023-03-13 16:00	2023-03-09 08:00	2023-03-13 16:00	2023-03-09 08:00	2023-03-13 16:00	2023-04-20 08:00	2023-04-24 16:00		PT_Normal					CidtCItOt0SYxrnRy5OXfw				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102088	4517	26134	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1520	High and Canopy Roof:6"" Mech. Fastened Polyiso Insulation		240	0	8	0	0	0	8	0	0	0				2023-04-25 08:00	2023-04-25 16:00		2023-03-14 08:00	2023-03-14 16:00	2023-03-14 08:00	2023-03-14 16:00	2023-03-14 08:00	2023-03-14 16:00	2023-04-25 08:00	2023-04-25 16:00		PT_Normal					3E2lUSpt/UuYWXvwlQKGTQ				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102089	4517	26134	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1530	High and Canopy Roof:1/2"" Mech. Fastened dense-deck cover board		216	0	8	0	0	0	8	0	0	0				2023-04-27 08:00	2023-04-27 16:00		2023-03-21 08:00	2023-03-21 16:00	2023-03-21 08:00	2023-03-21 16:00	2023-03-21 08:00	2023-03-21 16:00	2023-04-27 08:00	2023-04-27 16:00		PT_Normal					n60ngLNdUEiRGhJ/KyL/Ow				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102090	4517	26134	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1540	High and Canopy Roof:Fully adhered EPDM Membrane		248	32	8	0	0	0	8	0	0	0				2023-04-27 08:00	2023-04-27 16:00		2023-03-15 08:00	2023-03-15 16:00	2023-03-15 08:00	2023-03-15 16:00	2023-03-15 08:00	2023-03-15 16:00	2023-04-27 08:00	2023-04-27 16:00		PT_Normal					N5FH8bXuVk62oXgDjvP7+w				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102091	4517	26134	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1550	Drive Through:Galvanized Roof Deck		216	0	16	0	0	0	16	0	0	0				2023-04-24 08:00	2023-04-25 16:00		2023-03-16 08:00	2023-03-17 16:00	2023-03-16 08:00	2023-03-17 16:00	2023-03-16 08:00	2023-03-17 16:00	2023-04-24 08:00	2023-04-25 16:00		PT_Normal					HkkVLI+bnUClfFLVRzTcZw				N	0	0			2022-12-16 03:20	2022-12-16 05:33				
+%R	102092	4517	26134	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1560	Drive Through:6"" Mech. Fastened Polyiso Insulation		216	0	8	0	0	0	8	0	0	0				2023-04-26 08:00	2023-04-26 16:00		2023-03-20 08:00	2023-03-20 16:00	2023-03-20 08:00	2023-03-20 16:00	2023-03-20 08:00	2023-03-20 16:00	2023-04-26 08:00	2023-04-26 16:00		PT_Normal					dqt9UpK1z0Wvb/pFBHOsvg				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102093	4517	26134	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1570	Drive Through:Fully adhered EPDM Membrane		216	216	8	0	0	0	8	0	0	0				2023-04-28 08:00	2023-04-28 16:00		2023-03-22 08:00	2023-03-22 16:00	2023-03-22 08:00	2023-03-22 16:00	2023-03-22 08:00	2023-03-22 16:00	2023-04-28 08:00	2023-04-28 16:00		PT_Normal					M5pCZ/pna02AoaobeJmBZA				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102094	4517	26135	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1710	Reinforcement mesh		168	0	8	0	0	0	8	0	0	0				2023-03-08 08:00	2023-03-08 16:00		2023-02-07 08:00	2023-02-07 16:00	2023-02-07 08:00	2023-02-07 16:00	2023-02-07 08:00	2023-02-07 16:00	2023-03-08 08:00	2023-03-08 16:00		PT_Normal					Oah91zju7UqOTnp7u+uJqQ				N	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102095	4517	26135	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1720	Pouring Concrete		168	0	8	0	0	0	8	0	0	0				2023-03-09 08:00	2023-03-09 16:00		2023-02-08 08:00	2023-02-08 16:00	2023-02-08 08:00	2023-02-08 16:00	2023-02-08 08:00	2023-02-08 16:00	2023-03-09 08:00	2023-03-09 16:00		PT_Normal					VM24YH0AMEmN3hhyN4dP1A				N	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102096	4517	26135	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1730	Curing		168	0	48	0	0	0	48	0	0	0				2023-03-10 08:00	2023-03-17 16:00		2023-02-09 08:00	2023-02-16 16:00	2023-02-09 08:00	2023-02-16 16:00	2023-02-09 08:00	2023-02-16 16:00	2023-03-10 08:00	2023-03-17 16:00		PT_Normal					Q2TD/Edz9ESg9xJjtSaQqQ				N	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102097	4517	26135	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1740	Isolation Joint		168	168	8	0	0	0	8	0	0	0				2023-03-20 08:00	2023-03-20 16:00		2023-02-17 08:00	2023-02-17 16:00	2023-02-17 08:00	2023-02-17 16:00	2023-02-17 08:00	2023-02-17 16:00	2023-03-20 08:00	2023-03-20 16:00		PT_Normal					4DMAwNj5hUC2Ru9CrewVpw				N	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102098	4517	26136	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1750	Framing of studs for exterior drywall		0	0	40	0	0	0	40	0	0	0				2023-03-01 08:00	2023-03-07 16:00		2023-03-01 08:00	2023-03-07 16:00	2023-03-01 08:00	2023-03-07 16:00	2023-03-01 08:00	2023-03-07 16:00	2023-03-01 08:00	2023-03-07 16:00		PT_Normal					xffXarwrrkiwHjV+makXlg				Y	0	0			2022-12-16 03:20	2022-12-16 03:50				
+%R	102099	4517	26136	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1760	Drywall exterior sheathing		24	0	32	0	0	0	32	0	0	0				2023-03-20 08:00	2023-03-23 16:00		2023-03-15 08:00	2023-03-20 16:00	2023-03-15 08:00	2023-03-20 16:00	2023-03-15 08:00	2023-03-20 16:00	2023-03-20 08:00	2023-03-23 16:00		PT_Normal					l+wGp+0LlkqhpQW8PfERVw				N	0	0			2022-12-16 03:20	2022-12-16 04:09				
+%R	102100	4517	26136	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1770	Insulation for Exterior Drywall		24	24	16	0	0	0	16	0	0	0				2023-04-18 08:00	2023-04-19 16:00		2023-04-13 08:00	2023-04-14 16:00	2023-04-13 08:00	2023-04-14 16:00	2023-04-13 08:00	2023-04-14 16:00	2023-04-18 08:00	2023-04-19 16:00		PT_Normal					3xbJTDBsFUS8fVvu/0VfPQ				N	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102101	4517	26136	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1780	Drywall Interior Sheathing		0	0	32	0	0	0	32	0	0	0				2023-04-20 08:00	2023-04-25 16:00		2023-04-20 08:00	2023-04-25 16:00	2023-04-20 08:00	2023-04-25 16:00	2023-04-20 08:00	2023-04-25 16:00	2023-04-20 08:00	2023-04-25 16:00		PT_Normal					JGUrfELeIEm2Hwcw0FXfmA				Y	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102102	4517	26136	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1790	Installation of curtain walls framing (Mullions and transoms)		0	0	32	0	0	0	32	0	0	0				2023-03-08 08:00	2023-03-13 16:00		2023-03-08 08:00	2023-03-13 16:00	2023-03-08 08:00	2023-03-13 16:00	2023-03-08 08:00	2023-03-13 16:00	2023-03-08 08:00	2023-03-13 16:00		PT_Normal					TtOsaa+d8Uy4rN0+dSwgwQ				Y	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102103	4517	26136	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1800	Installation of curtain walls		0	0	40	0	0	0	40	0	0	0				2023-03-14 08:00	2023-03-20 16:00		2023-03-14 08:00	2023-03-20 16:00	2023-03-14 08:00	2023-03-20 16:00	2023-03-14 08:00	2023-03-20 16:00	2023-03-14 08:00	2023-03-20 16:00		PT_Normal					1KfdJ3fdakuGbCZFIBE/gQ				Y	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102104	4517	26137	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1810	Framing of Studs for interior walls		0	0	48	0	0	0	48	0	0	0				2023-03-29 08:00	2023-04-05 16:00		2023-03-29 08:00	2023-04-05 16:00	2023-03-29 08:00	2023-04-05 16:00	2023-03-29 08:00	2023-04-05 16:00	2023-03-29 08:00	2023-04-05 16:00		PT_Normal					xjOj6SY48ky6qyL/yWUd9Q				Y	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102105	4517	26137	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1820	Insulation for interior walls		88	24	16	0	0	0	16	0	0	0				2023-05-05 08:00	2023-05-08 16:00		2023-04-20 08:00	2023-04-21 16:00	2023-04-20 08:00	2023-04-21 16:00	2023-04-20 08:00	2023-04-21 16:00	2023-05-05 08:00	2023-05-08 16:00		PT_Normal					siYxioVZp02yx/zAxvk2Qg				N	0	0			2022-12-16 03:20	2022-12-16 04:09				
+%R	102106	4517	26137	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1830	Sheathing for interior walls		64	0	32	0	0	0	32	0	0	0				2023-05-09 08:00	2023-05-12 16:00		2023-04-27 08:00	2023-05-02 16:00	2023-04-27 08:00	2023-05-02 16:00	2023-04-27 08:00	2023-05-02 16:00	2023-05-09 08:00	2023-05-12 16:00		PT_Normal					ytLLqeHTekK9Dd4ycuKT0Q				N	0	0			2022-12-16 03:20	2022-12-16 05:46				
+%R	102107	4517	26138	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1840	Ductwork at North-East Side		24	0	32	0	0	0	32	0	0	0				2023-03-24 08:00	2023-03-29 16:00		2023-03-21 08:00	2023-03-24 16:00	2023-03-21 08:00	2023-03-24 16:00	2023-03-21 08:00	2023-03-24 16:00	2023-03-24 08:00	2023-03-29 16:00		PT_Normal					oYoboCyatEGeTeqm7Gl9Xw				N	0	0			2022-12-16 03:20	2022-12-16 04:09				
+%R	102108	4517	26138	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1850	Ductwork at North-West Side		24	0	32	0	0	0	32	0	0	0				2023-03-30 08:00	2023-04-04 16:00		2023-03-27 08:00	2023-03-30 16:00	2023-03-27 08:00	2023-03-30 16:00	2023-03-27 08:00	2023-03-30 16:00	2023-03-30 08:00	2023-04-04 16:00		PT_Normal					T9h0CepE8EqV7fX9SbU1DA				N	0	0			2022-12-16 03:20	2022-12-16 05:38				
+%R	102109	4517	26138	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1860	Ductwork at South Side		24	0	56	0	0	0	56	0	0	0				2023-04-05 08:00	2023-04-13 16:00		2023-03-31 08:00	2023-04-10 16:00	2023-03-31 08:00	2023-04-10 16:00	2023-03-31 08:00	2023-04-10 16:00	2023-04-05 08:00	2023-04-13 16:00		PT_Normal					QexsimsZRUawyi2L86cmfw				N	0	0			2022-12-16 03:20	2022-12-16 05:37				
+%R	102110	4517	26138	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1870	Installation of Flex duct		184	0	8	0	0	0	8	0	0	0				2023-05-12 08:00	2023-05-12 16:00		2023-04-11 08:00	2023-04-11 16:00	2023-04-11 08:00	2023-04-11 16:00	2023-04-11 08:00	2023-04-11 16:00	2023-05-12 08:00	2023-05-12 16:00		PT_Normal					odF0d/0vRkudreR0a1tQig				N	0	0			2022-12-16 03:20	2022-12-16 05:37				
+%R	102111	4517	26138	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1880	Inspection of Mechanical System		184	0	8	0	0	0	8	0	0	0				2023-05-15 08:00	2023-05-15 16:00		2023-04-12 08:00	2023-04-12 16:00	2023-04-12 08:00	2023-04-12 16:00	2023-04-12 08:00	2023-04-12 16:00	2023-05-15 08:00	2023-05-15 16:00		PT_Normal					EmDOr68KgUeEp7c+6nRM/Q				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102112	4517	26139	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1890	Plumbing Rough In for restroom		0	0	40	0	0	0	40	0	0	0				2023-04-06 08:00	2023-04-12 16:00		2023-04-06 08:00	2023-04-12 16:00	2023-04-06 08:00	2023-04-12 16:00	2023-04-06 08:00	2023-04-12 16:00	2023-04-06 08:00	2023-04-12 16:00		PT_Normal					RSOMlRDXtkybmTzGn1NofQ				Y	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102113	4517	26139	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1900	Plumbing Rough In for breakroom		0	0	40	0	0	0	40	0	0	0				2023-04-13 08:00	2023-04-19 16:00		2023-04-13 08:00	2023-04-19 16:00	2023-04-13 08:00	2023-04-19 16:00	2023-04-13 08:00	2023-04-19 16:00	2023-04-13 08:00	2023-04-19 16:00		PT_Normal					QhpMh5bLl0yuy6zaN1o+SA				Y	0	0			2022-12-15 02:58	2022-12-15 02:58				
+%R	102114	4517	26140	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1910	Electrical Rough In at North Side		48	24	32	0	0	0	32	0	0	0				2023-04-10 08:00	2023-04-13 16:00		2023-03-31 08:00	2023-04-05 16:00	2023-03-31 08:00	2023-04-05 16:00	2023-03-31 08:00	2023-04-05 16:00	2023-04-10 08:00	2023-04-13 16:00		PT_Normal					NBhdCi3U6kqQaO3sNws7dw				N	0	0			2022-12-16 03:20	2022-12-16 04:09				
+%R	102115	4517	26140	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1920	Electrical Rough In at South Side		24	0	32	0	0	0	32	0	0	0				2023-04-14 08:00	2023-04-19 16:00		2023-04-11 08:00	2023-04-14 16:00	2023-04-11 08:00	2023-04-14 16:00	2023-04-11 08:00	2023-04-14 16:00	2023-04-14 08:00	2023-04-19 16:00		PT_Normal					eOiqyZgVPEmG3hiDGOvt1g				N	0	0			2022-12-16 03:20	2022-12-16 04:09				
+%R	102116	4517	26140	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1930	Electrical Rough In at Ceiling		64	0	32	0	0	0	32	0	0	0				2023-04-27 08:00	2023-05-02 16:00		2023-04-17 08:00	2023-04-20 16:00	2023-04-17 08:00	2023-04-20 16:00	2023-04-17 08:00	2023-04-20 16:00	2023-04-27 08:00	2023-05-02 16:00		PT_Normal					X+zbhyYYKEaqPbMaEfh0Lw				N	0	0			2022-12-16 03:20	2022-12-16 04:09				
+%R	102117	4517	26140	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1940	Set Electrical boxes		200	0	24	0	0	0	24	0	0	0				2023-05-22 08:00	2023-05-24 16:00		2023-04-17 08:00	2023-04-19 16:00	2023-04-17 08:00	2023-04-19 16:00	2023-04-17 08:00	2023-04-19 16:00	2023-05-22 08:00	2023-05-24 16:00		PT_Normal					xoVm0lmO4ECJ/YPuFOHZZg				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102118	4517	26140	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1950	Install Electric Service Panel		200	112	8	0	0	0	8	0	0	0				2023-05-25 08:00	2023-05-25 16:00		2023-04-20 08:00	2023-04-20 16:00	2023-04-20 08:00	2023-04-20 16:00	2023-04-20 08:00	2023-04-20 16:00	2023-05-25 08:00	2023-05-25 16:00		PT_Normal					CG0wLvgzb0C4xT45LUlWQQ				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102119	4517	26141	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1960	Prepare drywall for resilient base interior		64	0	16	0	0	0	16	0	0	0				2023-05-18 08:00	2023-05-19 16:00		2023-05-08 08:00	2023-05-09 16:00	2023-05-08 08:00	2023-05-09 16:00	2023-05-08 08:00	2023-05-09 16:00	2023-05-18 08:00	2023-05-19 16:00		PT_Normal					5PSK+Q6qIUCfSh+ioPFlPg				N	0	0			2022-12-16 03:20	2022-12-16 04:41				
+%R	102120	4517	26141	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1970	Apply resilient base to the drywall interior		64	0	8	0	0	0	8	0	0	0				2023-05-22 08:00	2023-05-22 16:00		2023-05-10 08:00	2023-05-10 16:00	2023-05-10 08:00	2023-05-10 16:00	2023-05-10 08:00	2023-05-10 16:00	2023-05-22 08:00	2023-05-22 16:00		PT_Normal					6TRqXg3FREKg/feDwn8abA				N	0	0			2022-12-16 03:20	2022-12-16 04:41				
+%R	102123	4517	26141	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2000	caulk windows and doors interior		64	0	8	0	0	0	8	0	0	0				2023-05-23 08:00	2023-05-23 16:00		2023-05-11 08:00	2023-05-11 16:00	2023-05-11 08:00	2023-05-11 16:00	2023-05-11 08:00	2023-05-11 16:00	2023-05-23 08:00	2023-05-23 16:00		PT_Normal					m7MVLlUv7kqQjssCCTzrkQ				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102124	4517	26137	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2010	Installation of door frames-Interior		64	0	24	0	0	0	24	0	0	0				2023-05-15 08:00	2023-05-17 16:00		2023-05-03 08:00	2023-05-05 16:00	2023-05-03 08:00	2023-05-05 16:00	2023-05-03 08:00	2023-05-05 16:00	2023-05-15 08:00	2023-05-17 16:00		PT_Normal					+mjc+6P/1UqtV+8L8qgBsg				N	0	0			2022-12-16 03:20	2022-12-16 04:41				
+%R	102125	4517	26136	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2020	Installation of door frames-External		24	0	24	0	0	0	24	0	0	0				2023-03-15 08:00	2023-03-17 16:00		2023-03-10 08:00	2023-03-14 16:00	2023-03-10 08:00	2023-03-14 16:00	2023-03-10 08:00	2023-03-14 16:00	2023-03-15 08:00	2023-03-17 16:00		PT_Normal					14QRCyawGkqKlcYpADTCiA				N	0	0			2022-12-16 03:20	2022-12-16 04:09				
+%R	102126	4517	26136	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2030	Installation of window frames-External		24	0	16	0	0	0	16	0	0	0				2023-03-13 08:00	2023-03-14 16:00		2023-03-08 08:00	2023-03-09 16:00	2023-03-08 08:00	2023-03-09 16:00	2023-03-08 08:00	2023-03-09 16:00	2023-03-13 08:00	2023-03-14 16:00		PT_Normal					9hUr8m3/AEiN43quyHHldg				N	0	0			2022-12-16 03:20	2022-12-16 04:09				
+%R	102127	4517	26141	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2040	Installation of doors interior		176	176	24	0	0	0	24	0	0	0				2023-06-20 08:00	2023-06-22 16:00		2023-05-19 08:00	2023-05-23 16:00	2023-05-19 08:00	2023-05-23 16:00	2023-05-19 08:00	2023-05-23 16:00	2023-06-20 08:00	2023-06-22 16:00		PT_Normal					YuoktqkSGkCGZJLYLnSRBQ				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102128	4517	26142	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2050	Prepare drywall for resilient base exterior		128	0	16	0	0	0	16	0	0	0				2023-06-02 08:00	2023-06-05 16:00		2023-05-11 08:00	2023-05-12 16:00	2023-05-11 08:00	2023-05-12 16:00	2023-05-11 08:00	2023-05-12 16:00	2023-06-02 08:00	2023-06-05 16:00		PT_Normal					MGg+YvBdw0C/rKbAbs2Q0Q				N	0	0			2022-12-16 03:20	2022-12-16 04:41				
+%R	102129	4517	26142	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2060	Apply resilient base to the drywall exterior		128	0	8	0	0	0	8	0	0	0				2023-06-07 08:00	2023-06-07 16:00		2023-05-16 08:00	2023-05-16 16:00	2023-05-16 08:00	2023-05-16 16:00	2023-05-16 08:00	2023-05-16 16:00	2023-06-07 08:00	2023-06-07 16:00		PT_Normal					q8O5AjrlpkOUF5641IBvdQ				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102130	4517	26142	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2070	Prep trim for resilient base exterior		128	0	8	0	0	0	8	0	0	0				2023-06-08 08:00	2023-06-08 16:00		2023-05-17 08:00	2023-05-17 16:00	2023-05-17 08:00	2023-05-17 16:00	2023-05-17 08:00	2023-05-17 16:00	2023-06-08 08:00	2023-06-08 16:00		PT_Normal					s6bDMgrDm02MV3nOgtpgmA				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102132	4517	26142	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2090	caulk windows and doors exterior		192	192	8	0	0	0	8	0	0	0				2023-06-22 08:00	2023-06-22 16:00		2023-05-19 08:00	2023-05-19 16:00	2023-05-19 08:00	2023-05-19 16:00	2023-05-19 08:00	2023-05-19 16:00	2023-06-22 08:00	2023-06-22 16:00		PT_Normal					xySuYc+SoUqb6UCsbPgwRg				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102133	4517	26142	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2100	Installation of doors & windows exterior		176	0	16	0	0	0	16	0	0	0				2023-06-16 08:00	2023-06-19 16:00		2023-05-17 08:00	2023-05-18 16:00	2023-05-17 08:00	2023-05-18 16:00	2023-05-17 08:00	2023-05-18 16:00	2023-06-16 08:00	2023-06-19 16:00		PT_Normal					mjdvQ4hlwEy/y05rCmCGoQ				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102134	4517	26142	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2110	Installation of Glazing film for curtain wall glass exterior		128	128	8	0	0	0	8	0	0	0				2023-06-22 08:00	2023-06-22 16:00		2023-05-31 08:00	2023-05-31 16:00	2023-05-31 08:00	2023-05-31 16:00	2023-05-31 08:00	2023-05-31 16:00	2023-06-22 08:00	2023-06-22 16:00		PT_Normal					Xek8JQE1OEWwy9eO0Wx1PA				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102135	4517	26141	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2120	Apply Final Paint Coat interior		64	0	16	0	0	0	16	0	0	0				2023-06-09 08:00	2023-06-12 16:00		2023-05-30 08:00	2023-05-31 16:00	2023-05-30 08:00	2023-05-31 16:00	2023-05-30 08:00	2023-05-31 16:00	2023-06-09 08:00	2023-06-12 16:00		PT_Normal					qN1KE+ibLUeKaWcJt4IJtg				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102136	4517	26142	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2130	Apply Final Paint coat exterior		128	0	16	0	0	0	16	0	0	0				2023-06-20 08:00	2023-06-21 16:00		2023-05-29 08:00	2023-05-30 16:00	2023-05-29 08:00	2023-05-30 16:00	2023-05-29 08:00	2023-05-30 16:00	2023-06-20 08:00	2023-06-21 16:00		PT_Normal					KP0RJZanaEyoiPNG7TRN5A				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102137	4517	26144	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2140	Alarm System Rough In		64	0	8	0	0	0	8	0	0	0				2023-05-03 08:00	2023-05-03 16:00		2023-04-21 08:00	2023-04-21 16:00	2023-04-21 08:00	2023-04-21 16:00	2023-04-21 08:00	2023-04-21 16:00	2023-05-03 08:00	2023-05-03 16:00		PT_Normal					gH78cE+xS0eA8sT266FLvg				N	0	0			2022-12-16 03:20	2022-12-16 04:09				
+%R	102138	4517	26144	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2150	Telephone System Rough In		64	0	8	0	0	0	8	0	0	0				2023-05-04 08:00	2023-05-04 16:00		2023-04-24 08:00	2023-04-24 16:00	2023-04-24 08:00	2023-04-24 16:00	2023-04-24 08:00	2023-04-24 16:00	2023-05-04 08:00	2023-05-04 16:00		PT_Normal					BLDUK8esrUa+7p4mo9u4rg				N	0	0			2022-12-16 03:20	2022-12-16 04:09				
+%R	102139	4517	26144	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2160	Television System Rough In		64	0	8	0	0	0	8	0	0	0				2023-05-05 08:00	2023-05-05 16:00		2023-04-25 08:00	2023-04-25 16:00	2023-04-25 08:00	2023-04-25 16:00	2023-04-25 08:00	2023-04-25 16:00	2023-05-05 08:00	2023-05-05 16:00		PT_Normal					27bBIgXGuUqFTguucAet0A				N	0	0			2022-12-16 03:20	2022-12-16 04:09				
+%R	102140	4517	26144	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2170	Audio Visual Rough In		64	0	8	0	0	0	8	0	0	0				2023-05-08 08:00	2023-05-08 16:00		2023-04-26 08:00	2023-04-26 16:00	2023-04-26 08:00	2023-04-26 16:00	2023-04-26 08:00	2023-04-26 16:00	2023-05-08 08:00	2023-05-08 16:00		PT_Normal					X6OAVbxzfkafh/9TwLgYpA				N	0	0			2022-12-16 03:20	2022-12-16 04:09				
+%R	102141	4517	26135	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2180	Anti-termite Treatment		168	0	8	0	0	0	8	0	0	0				2023-03-07 08:00	2023-03-07 16:00		2023-02-06 08:00	2023-02-06 16:00	2023-02-06 08:00	2023-02-06 16:00	2023-02-06 08:00	2023-02-06 16:00	2023-03-07 08:00	2023-03-07 16:00		PT_Normal					0ulAUW+WoUe7A5YzDH7S2g				N	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102142	4517	26135	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2190	Plastic vapour retarder		168	0	0	0	0	0	0	0	0	0				2023-03-07 16:00	2023-03-07 16:00		2023-02-07 08:00	2023-02-07 08:00	2023-02-07 08:00	2023-02-07 08:00	2023-02-07 08:00	2023-02-07 08:00	2023-03-07 16:00	2023-03-07 16:00		PT_Normal					TXkytP2PZkO9o07kRhq0Gw				N	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102143	4517	26145	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2200	Installing Ceramic Tile for Main area		0	0	48	0	0	0	48	0	0	0				2023-03-21 08:00	2023-03-28 16:00		2023-03-21 08:00	2023-03-28 16:00	2023-03-21 08:00	2023-03-28 16:00	2023-03-21 08:00	2023-03-28 16:00	2023-03-21 08:00	2023-03-28 16:00		PT_Normal					fkVDMQXiuEmNUB2haBloug				Y	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102144	4517	26145	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2210	Install Hardwood floor		64	0	24	0	0	0	24	0	0	0				2023-06-02 08:00	2023-06-06 16:00		2023-05-23 08:00	2023-05-25 16:00	2023-05-23 08:00	2023-05-25 16:00	2023-05-23 08:00	2023-05-25 16:00	2023-06-02 08:00	2023-06-06 16:00		PT_Normal					5U71HWEsi0eUmKKo++D3+w				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102145	4517	26143	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2220	Framing for ACT ceiling		184	0	24	0	0	0	24	0	0	0				2023-05-19 08:00	2023-05-23 16:00		2023-04-18 08:00	2023-04-20 16:00	2023-04-18 08:00	2023-04-20 16:00	2023-04-18 08:00	2023-04-20 16:00	2023-05-19 08:00	2023-05-23 16:00		PT_Normal					dFQjBhyG306ebqncy8UNEw				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102146	4517	26143	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2230	Framing for GWB ceiling		184	0	24	0	0	0	24	0	0	0				2023-05-16 08:00	2023-05-18 16:00		2023-04-13 08:00	2023-04-17 16:00	2023-04-13 08:00	2023-04-17 16:00	2023-04-13 08:00	2023-04-17 16:00	2023-05-16 08:00	2023-05-18 16:00		PT_Normal					0u5HZVVRk0CxH3hWJm61ow				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102147	4517	26143	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2240	Installation for GWB ceiling		184	0	32	0	0	0	32	0	0	0				2023-05-24 08:00	2023-05-29 16:00		2023-04-21 08:00	2023-04-26 16:00	2023-04-21 08:00	2023-04-26 16:00	2023-04-21 08:00	2023-04-26 16:00	2023-05-24 08:00	2023-05-29 16:00		PT_Normal					AXyF1yGljUGZ7gKI3eXCqw				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102148	4517	26143	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2250	Prepare GWB for resilient base ceiling		184	0	16	0	0	0	16	0	0	0				2023-06-01 08:00	2023-06-02 16:00		2023-05-01 08:00	2023-05-02 16:00	2023-05-01 08:00	2023-05-02 16:00	2023-05-01 08:00	2023-05-02 16:00	2023-06-01 08:00	2023-06-02 16:00		PT_Normal					Sn2/7VT0oEGeA9teUC7efg				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102149	4517	26143	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2260	Apply resilient base to the GWB ceiling		184	0	8	0	0	0	8	0	0	0				2023-06-05 08:00	2023-06-05 16:00		2023-05-03 08:00	2023-05-03 16:00	2023-05-03 08:00	2023-05-03 16:00	2023-05-03 08:00	2023-05-03 16:00	2023-06-05 08:00	2023-06-05 16:00		PT_Normal					UheDUQTdmk6B0+xOwpOUhg				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102150	4517	26143	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2270	Prep trim for resilient base GWB ceiling		184	32	8	0	0	0	8	0	0	0				2023-06-06 08:00	2023-06-06 16:00		2023-05-04 08:00	2023-05-04 16:00	2023-05-04 08:00	2023-05-04 16:00	2023-05-04 08:00	2023-05-04 16:00	2023-06-06 08:00	2023-06-06 16:00		PT_Normal					e2uAaXgbi0WK5GhOYWPihQ				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102152	4517	26145	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2290	Sand, Stain, Seal Hardwood		64	0	8	0	0	0	8	0	0	0				2023-06-07 08:00	2023-06-07 16:00		2023-05-26 08:00	2023-05-26 16:00	2023-05-26 08:00	2023-05-26 16:00	2023-05-26 08:00	2023-05-26 16:00	2023-06-07 08:00	2023-06-07 16:00		PT_Normal					V6yDjbcxUEW1li6VnQ6Ypw				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102153	4517	26145	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2300	Final coat on Hardwood		64	0	8	0	0	0	8	0	0	0				2023-06-08 08:00	2023-06-08 16:00		2023-05-29 08:00	2023-05-29 16:00	2023-05-29 08:00	2023-05-29 16:00	2023-05-29 08:00	2023-05-29 16:00	2023-06-08 08:00	2023-06-08 16:00		PT_Normal					jYdhRY2eVU6anJDoebjvZA				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102154	4517	26145	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2310	Install Carpet		80	80	8	0	0	0	8	0	0	0				2023-06-13 08:00	2023-06-13 16:00		2023-05-30 08:00	2023-05-30 16:00	2023-05-30 08:00	2023-05-30 16:00	2023-05-30 08:00	2023-05-30 16:00	2023-06-13 08:00	2023-06-13 16:00		PT_Normal					yytGDVADPkm0lQxrQdfcpw				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102155	4517	26143	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2320	Apply Final Paint Coat ceiling		152	88	16	0	0	0	16	0	0	0				2023-06-07 08:00	2023-06-08 16:00		2023-05-11 08:00	2023-05-12 16:00	2023-05-11 08:00	2023-05-12 16:00	2023-05-11 08:00	2023-05-12 16:00	2023-06-07 08:00	2023-06-08 16:00		PT_Normal					pJ0bqG0Cp0CRdUVligyydw				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102156	4517	26143	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2330	Installation of ACT ceiling		64	64	8	0	0	0	8	0	0	0				2023-06-13 08:00	2023-06-13 16:00		2023-06-01 08:00	2023-06-01 16:00	2023-06-01 08:00	2023-06-01 16:00	2023-06-01 08:00	2023-06-01 16:00	2023-06-13 08:00	2023-06-13 16:00		PT_Normal					7nU2hlDlY0y2/oBaQOHFaA				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102157	4517	26143	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2340	Cutting for GWB for light fixtures ceiling		184	0	16	0	0	0	16	0	0	0				2023-05-30 08:00	2023-05-31 16:00		2023-04-27 08:00	2023-04-28 16:00	2023-04-27 08:00	2023-04-28 16:00	2023-04-27 08:00	2023-04-28 16:00	2023-05-30 08:00	2023-05-31 16:00		PT_Normal					f5Xb3bSRSEGyfD3YnxchEQ				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102159	4517	26146	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2360	Install interior furniture		64	0	56	0	0	0	56	0	0	0				2023-05-24 08:00	2023-06-01 16:00		2023-05-12 08:00	2023-05-22 16:00	2023-05-12 08:00	2023-05-22 16:00	2023-05-12 08:00	2023-05-22 16:00	2023-05-24 08:00	2023-06-01 16:00		PT_Normal					GLa9HNSF5kyk2TjPrh9jpA				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102160	4517	26147	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2370	Install grills		128	0	8	0	0	0	8	0	0	0				2023-06-09 08:00	2023-06-09 16:00		2023-05-18 08:00	2023-05-18 16:00	2023-05-18 08:00	2023-05-18 16:00	2023-05-18 08:00	2023-05-18 16:00	2023-06-09 08:00	2023-06-09 16:00		PT_Normal					YEe97ghyQkOnvhmg4fXlrw				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102161	4517	26147	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2380	Set outdoor units (AHU)		128	0	24	0	0	0	24	0	0	0				2023-06-12 08:00	2023-06-14 16:00		2023-05-19 08:00	2023-05-23 16:00	2023-05-19 08:00	2023-05-23 16:00	2023-05-19 08:00	2023-05-23 16:00	2023-06-12 08:00	2023-06-14 16:00		PT_Normal					FwueZ/tvtUqFE0ZlkmDQmA				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102162	4517	26147	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2390	Install defusers		128	0	16	0	0	0	16	0	0	0				2023-06-15 08:00	2023-06-16 16:00		2023-05-24 08:00	2023-05-25 16:00	2023-05-24 08:00	2023-05-25 16:00	2023-05-24 08:00	2023-05-25 16:00	2023-06-15 08:00	2023-06-16 16:00		PT_Normal					G7KrJidu1Ue4jx0wHPxD0w				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102163	4517	26149	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2400	Install Fixtures Plumbing		112	0	32	0	0	0	32	0	0	0				2023-06-01 08:00	2023-06-06 16:00		2023-05-12 08:00	2023-05-17 16:00	2023-05-12 08:00	2023-05-17 16:00	2023-05-12 08:00	2023-05-17 16:00	2023-06-01 08:00	2023-06-06 16:00		PT_Normal					X7ij+nVnqk2ekE0BxeL7fA				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102164	4517	26149	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2410	Connect Appliences Plumbing		112	0	8	0	0	0	8	0	0	0				2023-06-07 08:00	2023-06-07 16:00		2023-05-18 08:00	2023-05-18 16:00	2023-05-18 08:00	2023-05-18 16:00	2023-05-18 08:00	2023-05-18 16:00	2023-06-07 08:00	2023-06-07 16:00		PT_Normal					WSqpMheVVE+Tr9T9mHH+ZQ				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102165	4517	26149	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2420	Final Inspection Plumbing		112	48	8	0	0	0	8	0	0	0				2023-06-08 08:00	2023-06-08 16:00		2023-05-19 08:00	2023-05-19 16:00	2023-05-19 08:00	2023-05-19 16:00	2023-05-19 08:00	2023-05-19 16:00	2023-06-08 08:00	2023-06-08 16:00		PT_Normal					Xle0FuSuukuXrizDtWWdbw				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102166	4517	26148	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2430	Install Switch and Plugs		88	0	40	0	0	0	40	0	0	0				2023-05-26 08:00	2023-06-01 16:00		2023-05-11 08:00	2023-05-17 16:00	2023-05-11 08:00	2023-05-17 16:00	2023-05-11 08:00	2023-05-17 16:00	2023-05-26 08:00	2023-06-01 16:00		PT_Normal					RNh9/kWbNUWYtlWXYzlPKg				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102167	4517	26148	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2440	Install Light Fittings		88	0	32	0	0	0	32	0	0	0				2023-06-02 08:00	2023-06-07 16:00		2023-05-18 08:00	2023-05-23 16:00	2023-05-18 08:00	2023-05-23 16:00	2023-05-18 08:00	2023-05-23 16:00	2023-06-02 08:00	2023-06-07 16:00		PT_Normal					T+tbXegJQk6nWbhiO41YrA				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102168	4517	26148	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2450	Connect and test appliances Electrical		88	24	8	0	0	0	8	0	0	0				2023-06-08 08:00	2023-06-08 16:00		2023-05-24 08:00	2023-05-24 16:00	2023-05-24 08:00	2023-05-24 16:00	2023-05-24 08:00	2023-05-24 16:00	2023-06-08 08:00	2023-06-08 16:00		PT_Normal					WWJW8KtsgEi9Rw54l8W7lQ				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102169	4517	26130	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2460	Install Porche finishes		0	0	32	0	0	0	32	0	0	0				2023-05-01 08:00	2023-05-04 16:00		2023-05-01 08:00	2023-05-04 16:00	2023-05-01 08:00	2023-05-04 16:00	2023-05-01 08:00	2023-05-04 16:00	2023-05-01 08:00	2023-05-04 16:00		PT_Normal					LQQoxcP8tk2lja7hM1tPzw				Y	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102170	4517	26130	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2470	Sidewalks		0	0	32	0	0	0	32	0	0	0				2023-05-31 08:00	2023-06-05 16:00		2023-05-31 08:00	2023-06-05 16:00	2023-05-31 08:00	2023-06-05 16:00	2023-05-31 08:00	2023-06-05 16:00	2023-05-31 08:00	2023-06-05 16:00		PT_Normal					Eg+0sBjyvkqOvCWr+psABA				Y	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102171	4517	26130	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2480	Driveways		0	0	48	0	0	0	48	0	0	0				2023-06-06 08:00	2023-06-13 16:00		2023-06-06 08:00	2023-06-13 16:00	2023-06-06 08:00	2023-06-13 16:00	2023-06-06 08:00	2023-06-13 16:00	2023-06-06 08:00	2023-06-13 16:00		PT_Normal					BYr/vmfLBkKo/D2Njj7HiA				Y	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102172	4517	26120	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2490	Final Checklist and Inspection		0	0	56	0	0	0	56	0	0	0				2023-06-14 08:00	2023-06-22 16:00		2023-06-14 08:00	2023-06-22 16:00	2023-06-14 08:00	2023-06-22 16:00	2023-06-14 08:00	2023-06-22 16:00	2023-06-14 08:00	2023-06-22 16:00		PT_Normal					+DRtOjsYGE6XbKt4W8ukpg				Y	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%R	102173	4517	26134	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A1580	Install Walkpads		128	0	8	0	0	0	8	0	0	0				2023-06-19 08:00	2023-06-19 16:00		2023-05-26 08:00	2023-05-26 16:00	2023-05-26 08:00	2023-05-26 16:00	2023-05-26 08:00	2023-05-26 16:00	2023-06-19 08:00	2023-06-19 16:00		PT_Normal					CzMxidj2yU6/cdmySIx8Dw				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102174	4517	26150	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2500	Shuttering for Stairs		680	0	16	0	0	0	16	0	0	0				2023-05-16 08:00	2023-05-17 16:00		2023-01-17 08:00	2023-01-18 16:00	2023-01-17 08:00	2023-01-18 16:00	2023-01-17 08:00	2023-01-18 16:00	2023-05-16 08:00	2023-05-17 16:00		PT_Normal					Vv+1U3vXZ0+vAnQ2AHAqtw				N	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102175	4517	26150	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2510	Reinforcement for Stairs		680	0	32	0	0	0	32	0	0	0				2023-05-18 08:00	2023-05-23 16:00		2023-01-19 08:00	2023-01-24 16:00	2023-01-19 08:00	2023-01-24 16:00	2023-01-19 08:00	2023-01-24 16:00	2023-05-18 08:00	2023-05-23 16:00		PT_Normal					HMbjMKJenEuutqzm+hU3Sg				N	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102176	4517	26150	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2520	Pouring Concrete in Stairs		680	0	8	0	0	0	8	0	0	0				2023-05-24 08:00	2023-05-24 16:00		2023-01-25 08:00	2023-01-25 16:00	2023-01-25 08:00	2023-01-25 16:00	2023-01-25 08:00	2023-01-25 16:00	2023-05-24 08:00	2023-05-24 16:00		PT_Normal					y/baxfdC9EmHq3N9wyd2tA				N	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102177	4517	26150	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2530	Curing for Stairs		680	0	40	0	0	0	40	0	0	0				2023-05-25 08:00	2023-05-31 16:00		2023-01-26 08:00	2023-02-01 16:00	2023-01-26 08:00	2023-02-01 16:00	2023-01-26 08:00	2023-02-01 16:00	2023-05-25 08:00	2023-05-31 16:00		PT_Normal					eavo7L/Yz0qn/yb9+1qsvw				N	0	0			2022-12-15 04:22	2022-12-15 04:22				
+%R	102178	4517	26150	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2540	De-Shuttering for Stairs		680	0	8	0	0	0	8	0	0	0				2023-06-01 08:00	2023-06-01 16:00		2023-02-02 08:00	2023-02-02 16:00	2023-02-02 08:00	2023-02-02 16:00	2023-02-02 08:00	2023-02-02 16:00	2023-06-01 08:00	2023-06-01 16:00		PT_Normal					1fDwQMiYE0GOEs101lc0Rw				N	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102179	4517	26150	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2550	Plastering for stairs		680	552	16	0	0	0	16	0	0	0				2023-06-02 08:00	2023-06-05 16:00		2023-02-03 08:00	2023-02-06 16:00	2023-02-03 08:00	2023-02-06 16:00	2023-02-03 08:00	2023-02-06 16:00	2023-06-02 08:00	2023-06-05 16:00		PT_Normal					TP4H0G1Jx0Knnf5WRbrEyg				N	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102180	4517	26150	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2560	Final finish for Stairs		128	0	8	0	0	0	8	0	0	0				2023-06-06 08:00	2023-06-06 16:00		2023-05-15 08:00	2023-05-15 16:00	2023-05-15 08:00	2023-05-15 16:00	2023-05-15 08:00	2023-05-15 16:00	2023-06-06 08:00	2023-06-06 16:00		PT_Normal					/H7SsrweUUKzkuq7yaWxOw				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102181	4517	26136	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2570	Installation of drywall siding		0	0	24	0	0	0	24	0	0	0				2023-04-26 08:00	2023-04-28 16:00		2023-04-26 08:00	2023-04-28 16:00	2023-04-26 08:00	2023-04-28 16:00	2023-04-26 08:00	2023-04-28 16:00	2023-04-26 08:00	2023-04-28 16:00		PT_Normal					o0sa1HCUQEil6vfb+8eBhQ				Y	0	0			2022-12-16 03:20	2022-12-16 04:50				
+%R	102182	4517	26139	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2580	Install Storm Water drain		304	176	32	0	0	0	32	0	0	0				2023-06-13 08:00	2023-06-16 16:00		2023-04-20 08:00	2023-04-25 16:00	2023-04-20 08:00	2023-04-25 16:00	2023-04-20 08:00	2023-04-25 16:00	2023-06-13 08:00	2023-06-16 16:00		PT_Normal					PblztRwZrUeTZODRMwGEJg				N	0	0			2022-12-16 03:20	2022-12-16 05:03				
+%R	102183	4517	26145	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2590	Flooring for restroom		112	0	24	0	0	0	24	0	0	0				2023-05-29 08:00	2023-05-31 16:00		2023-05-09 08:00	2023-05-11 16:00	2023-05-09 08:00	2023-05-11 16:00	2023-05-09 08:00	2023-05-11 16:00	2023-05-29 08:00	2023-05-31 16:00		PT_Normal					Cmgrkeure06MS0EL7KF25g				N	0	0			2022-12-16 03:20	2022-12-16 05:50				
+%R	102184	4517	26145	178	0	N	1	N	N	CP_Drtn	TT_Task	DT_FixedDUR2	TK_NotStart	A2600	Cladding for restroom		112	0	32	0	0	0	32	0	0	0				2023-05-23 08:00	2023-05-26 16:00		2023-05-03 08:00	2023-05-08 16:00	2023-05-03 08:00	2023-05-08 16:00	2023-05-03 08:00	2023-05-08 16:00	2023-05-23 08:00	2023-05-26 16:00		PT_Normal					DrbmqtDS0EmvqZDX8CYbYA				N	0	0			2022-12-16 03:20	2022-12-16 05:11				
+%T	TASKPRED
+%F	task_pred_id	task_id	pred_task_id	proj_id	pred_proj_id	pred_type	lag_hr_cnt	comments	float_path	aref	arls
+%R	41265	102043	102042	4517	4517	PR_SS	0			2022-12-01 08:00	2022-11-30 16:00
+%R	41266	102044	102043	4517	4517	PR_FS	0			2022-12-01 08:00	2022-11-30 16:00
+%R	41267	102046	102044	4517	4517	PR_FS	0			2022-12-01 08:00	2022-12-01 08:00
+%R	41268	102047	102046	4517	4517	PR_FS	0			2022-12-06 16:00	2022-12-07 08:00
+%R	41269	102051	102047	4517	4517	PR_FS	0			2022-12-07 16:00	2022-12-08 08:00
+%R	41270	102052	102051	4517	4517	PR_FS	0			2022-12-08 16:00	2022-12-09 08:00
+%R	41271	102053	102052	4517	4517	PR_FS	0			2022-12-15 16:00	2022-12-16 08:00
+%R	41272	102060	102052	4517	4517	PR_FS	0			2022-12-15 16:00	2022-12-16 08:00
+%R	41273	102054	102053	4517	4517	PR_FS	0			2022-12-16 16:00	2022-12-19 08:00
+%R	41274	102061	102053	4517	4517	PR_FS	0			2022-12-16 16:00	2022-12-23 08:00
+%R	41275	102055	102054	4517	4517	PR_FS	0			2022-12-22 16:00	2022-12-23 08:00
+%R	41276	102062	102054	4517	4517	PR_FS	0			2022-12-22 16:00	2022-12-26 08:00
+%R	41277	102056	102055	4517	4517	PR_FS	0			2022-12-27 16:00	2022-12-27 16:00
+%R	41278	102063	102055	4517	4517	PR_FS	0			2022-12-27 16:00	2022-12-30 08:00
+%R	41279	102057	102056	4517	4517	PR_FS	0			2022-12-28 08:00	2022-12-28 08:00
+%R	41280	102064	102056	4517	4517	PR_FS	0			2022-12-28 08:00	2023-01-03 16:00
+%R	41281	102058	102057	4517	4517	PR_FS	0			2022-12-28 16:00	2022-12-29 08:00
+%R	41282	102065	102057	4517	4517	PR_FS	0			2022-12-28 16:00	2023-01-04 08:00
+%R	41283	102059	102058	4517	4517	PR_FS	0			2023-01-04 16:00	2023-01-11 08:00
+%R	41284	102066	102058	4517	4517	PR_FS	0			2023-01-04 16:00	2023-01-05 08:00
+%R	41285	102068	102059	4517	4517	PR_FS	0			2023-01-05 16:00	2023-01-20 16:00
+%R	41286	102067	102059	4517	4517	PR_FS	0			2023-01-05 16:00	2023-01-12 08:00
+%R	41287	102069	102067	4517	4517	PR_FS	0			2023-01-12 16:00	2023-01-13 08:00
+%R	41288	102070	102069	4517	4517	PR_FS	0			2023-01-16 16:00	2023-01-17 08:00
+%R	41289	102174	102069	4517	4517	PR_FS	0			2023-01-16 16:00	2023-05-16 08:00
+%R	41290	102071	102070	4517	4517	PR_FS	0			2023-01-20 16:00	2023-01-23 08:00
+%R	41291	102072	102071	4517	4517	PR_FS	0			2023-01-27 16:00	2023-01-30 08:00
+%R	41292	102073	102072	4517	4517	PR_FS	0			2023-02-03 16:00	2023-02-06 08:00
+%R	41293	102074	102073	4517	4517	PR_FS	0			2023-02-08 16:00	2023-02-09 08:00
+%R	41294	102075	102074	4517	4517	PR_FS	0			2023-02-10 16:00	2023-02-13 08:00
+%R	41295	102076	102075	4517	4517	PR_FS	0			2023-02-16 16:00	2023-02-17 08:00
+%R	41296	102083	102076	4517	4517	PR_FS	0			2023-02-22 16:00	2023-02-23 08:00
+%R	41297	102077	102076	4517	4517	PR_FS	0			2023-02-22 16:00	2023-04-03 08:00
+%R	41299	102079	102078	4517	4517	PR_FS	0			2023-03-01 16:00	2023-04-10 08:00
+%R	41300	102080	102079	4517	4517	PR_FS	0			2023-03-06 16:00	2023-04-13 08:00
+%R	41301	102081	102080	4517	4517	PR_FS	0			2023-03-08 16:00	2023-04-17 08:00
+%R	41302	102082	102081	4517	4517	PR_FS	0			2023-03-13 16:00	2023-04-20 08:00
+%R	41303	102175	102174	4517	4517	PR_FS	0			2023-01-18 16:00	2023-05-18 08:00
+%R	41304	102176	102175	4517	4517	PR_FS	0			2023-01-24 16:00	2023-05-24 08:00
+%R	41305	102177	102176	4517	4517	PR_FS	0			2023-01-25 16:00	2023-05-25 08:00
+%R	41306	102178	102177	4517	4517	PR_FS	0			2023-02-01 16:00	2023-06-01 08:00
+%R	41307	102179	102178	4517	4517	PR_FS	0			2023-02-02 16:00	2023-06-02 08:00
+%R	41308	102098	102083	4517	4517	PR_FS	0			2023-02-28 16:00	2023-03-01 08:00
+%R	41309	102084	102083	4517	4517	PR_FS	0			2023-02-28 16:00	2023-04-21 08:00
+%R	41310	102094	102142	4517	4517	PR_FS	0			2023-02-07 08:00	2023-03-08 08:00
+%R	41311	102095	102094	4517	4517	PR_FS	0			2023-02-07 16:00	2023-03-09 08:00
+%R	41312	102096	102095	4517	4517	PR_FS	0			2023-02-08 16:00	2023-03-10 08:00
+%R	41313	102097	102096	4517	4517	PR_FS	0			2023-02-16 16:00	2023-03-20 08:00
+%R	41314	102141	102072	4517	4517	PR_FS	0			2023-02-03 16:00	2023-03-07 08:00
+%R	41315	102142	102141	4517	4517	PR_FS	0			2023-02-06 16:00	2023-03-07 16:00
+%R	41316	102099	102098	4517	4517	PR_FS	0			2023-03-07 16:00	2023-03-20 08:00
+%R	41317	102107	102099	4517	4517	PR_FS	0			2023-03-20 16:00	2023-03-24 08:00
+%R	41318	102108	102107	4517	4517	PR_FS	0			2023-03-24 16:00	2023-03-30 08:00
+%R	41319	102109	102108	4517	4517	PR_FS	0			2023-03-30 16:00	2023-04-05 08:00
+%R	41320	102114	102108	4517	4517	PR_FS	0			2023-03-30 16:00	2023-04-10 08:00
+%R	41321	102115	102109	4517	4517	PR_FS	0			2023-04-10 16:00	2023-04-14 08:00
+%R	41322	102115	102114	4517	4517	PR_FS	0			2023-04-05 16:00	2023-04-14 08:00
+%R	41323	102100	102099	4517	4517	PR_FS	0			2023-03-20 16:00	2023-04-18 08:00
+%R	41325	102112	102104	4517	4517	PR_FS	0			2023-04-05 16:00	2023-04-06 08:00
+%R	41326	102103	102102	4517	4517	PR_FS	0			2023-03-13 16:00	2023-03-14 08:00
+%R	41327	102143	102103	4517	4517	PR_FS	0			2023-03-20 16:00	2023-03-21 08:00
+%R	41328	102104	102143	4517	4517	PR_FS	0			2023-03-28 16:00	2023-03-29 08:00
+%R	41329	102113	102112	4517	4517	PR_FS	0			2023-04-12 16:00	2023-04-13 08:00
+%R	41330	102105	102104	4517	4517	PR_FS	0			2023-04-05 16:00	2023-05-05 08:00
+%R	41331	102105	102113	4517	4517	PR_FS	0			2023-04-19 16:00	2023-05-05 08:00
+%R	41332	102101	102113	4517	4517	PR_FS	0			2023-04-19 16:00	2023-04-20 08:00
+%R	41333	102181	102101	4517	4517	PR_FS	0			2023-04-25 16:00	2023-04-26 08:00
+%R	41334	102106	102105	4517	4517	PR_FS	0			2023-04-21 16:00	2023-05-09 08:00
+%R	41335	102184	102106	4517	4517	PR_FS	0			2023-05-02 16:00	2023-05-23 08:00
+%R	41337	102183	102184	4517	4517	PR_FS	0			2023-05-08 16:00	2023-05-29 08:00
+%R	41338	102101	102115	4517	4517	PR_FS	0			2023-04-14 16:00	2023-04-20 08:00
+%R	41340	102117	102115	4517	4517	PR_FS	0			2023-04-14 16:00	2023-05-22 08:00
+%R	41341	102116	102115	4517	4517	PR_FS	0			2023-04-14 16:00	2023-04-27 08:00
+%R	41342	102137	102115	4517	4517	PR_FS	0			2023-04-14 16:00	2023-05-03 08:00
+%R	41343	102138	102137	4517	4517	PR_FS	0			2023-04-21 16:00	2023-05-04 08:00
+%R	41344	102139	102138	4517	4517	PR_FS	0			2023-04-24 16:00	2023-05-05 08:00
+%R	41345	102140	102139	4517	4517	PR_FS	0			2023-04-25 16:00	2023-05-08 08:00
+%R	41346	102106	102140	4517	4517	PR_FS	0			2023-04-26 16:00	2023-05-09 08:00
+%R	41348	102146	102104	4517	4517	PR_FS	0			2023-04-05 16:00	2023-05-16 08:00
+%R	41350	102125	102126	4517	4517	PR_FS	0			2023-03-09 16:00	2023-03-15 08:00
+%R	41352	102124	102125	4517	4517	PR_FS	0			2023-03-14 16:00	2023-05-15 08:00
+%R	41354	102099	102125	4517	4517	PR_FS	0			2023-03-14 16:00	2023-03-20 08:00
+%R	41355	102143	102097	4517	4517	PR_FS	0			2023-02-17 16:00	2023-03-21 08:00
+%R	41356	102085	102084	4517	4517	PR_FS	0			2023-03-02 16:00	2023-06-07 08:00
+%R	41357	102086	102085	4517	4517	PR_FS	0			2023-03-06 16:00	2023-06-09 08:00
+%R	41358	102102	102098	4517	4517	PR_FS	0			2023-03-07 16:00	2023-03-08 08:00
+%R	41359	102107	102083	4517	4517	PR_FS	0			2023-02-28 16:00	2023-03-24 08:00
+%R	41360	102104	102102	4517	4517	PR_FS	0			2023-03-13 16:00	2023-03-29 08:00
+%R	41362	102100	102112	4517	4517	PR_FS	0			2023-04-12 16:00	2023-04-18 08:00
+%R	41363	102105	102100	4517	4517	PR_FS	0			2023-04-14 16:00	2023-05-05 08:00
+%R	41364	102101	102100	4517	4517	PR_FS	0			2023-04-14 16:00	2023-04-20 08:00
+%R	41365	102106	102101	4517	4517	PR_FS	0			2023-04-25 16:00	2023-05-09 08:00
+%R	41366	102124	102106	4517	4517	PR_FS	0			2023-05-02 16:00	2023-05-15 08:00
+%R	41367	102163	102183	4517	4517	PR_FS	0			2023-05-11 16:00	2023-06-01 08:00
+%R	41368	102118	102117	4517	4517	PR_FS	0			2023-04-19 16:00	2023-05-25 08:00
+%R	41369	102166	102118	4517	4517	PR_FS	0			2023-04-20 16:00	2023-05-26 08:00
+%R	41370	102110	102109	4517	4517	PR_FS	0			2023-04-10 16:00	2023-05-12 08:00
+%R	41371	102111	102110	4517	4517	PR_FS	0			2023-04-11 16:00	2023-05-15 08:00
+%R	41372	102146	102111	4517	4517	PR_FS	0			2023-04-12 16:00	2023-05-16 08:00
+%R	41373	102137	102116	4517	4517	PR_FS	0			2023-04-20 16:00	2023-05-03 08:00
+%R	41375	102126	102098	4517	4517	PR_FS	0			2023-03-07 16:00	2023-03-13 08:00
+%R	41376	102119	102124	4517	4517	PR_FS	0			2023-05-05 16:00	2023-05-18 08:00
+%R	41377	102145	102146	4517	4517	PR_FS	0			2023-04-17 16:00	2023-05-19 08:00
+%R	41378	102147	102145	4517	4517	PR_FS	0			2023-04-20 16:00	2023-05-24 08:00
+%R	41379	102157	102147	4517	4517	PR_FS	0			2023-04-26 16:00	2023-05-30 08:00
+%R	41380	102148	102157	4517	4517	PR_FS	0			2023-04-28 16:00	2023-06-01 08:00
+%R	41381	102149	102148	4517	4517	PR_FS	0			2023-05-02 16:00	2023-06-05 08:00
+%R	41382	102150	102149	4517	4517	PR_FS	0			2023-05-03 16:00	2023-06-06 08:00
+%R	41384	102156	102135	4517	4517	PR_FS	0			2023-05-31 16:00	2023-06-13 08:00
+%R	41385	102078	102077	4517	4517	PR_FS	0			2023-02-27 16:00	2023-04-06 08:00
+%R	41387	102087	102080	4517	4517	PR_FS	0			2023-03-08 16:00	2023-04-20 08:00
+%R	41388	102091	102082	4517	4517	PR_FS	0			2023-03-15 16:00	2023-04-24 08:00
+%R	41389	102092	102091	4517	4517	PR_FS	0			2023-03-17 16:00	2023-04-26 08:00
+%R	41390	102092	102088	4517	4517	PR_FS	0			2023-03-14 16:00	2023-04-26 08:00
+%R	41391	102088	102084	4517	4517	PR_FS	0			2023-03-02 16:00	2023-04-25 08:00
+%R	41392	102182	102086	4517	4517	PR_FS	0			2023-03-08 16:00	2023-06-13 08:00
+%R	41393	102182	102113	4517	4517	PR_FS	0			2023-04-19 16:00	2023-06-13 08:00
+%R	41394	102173	102182	4517	4517	PR_FS	0			2023-04-25 16:00	2023-06-19 08:00
+%R	41395	102089	102092	4517	4517	PR_FS	0			2023-03-20 16:00	2023-04-27 08:00
+%R	41396	102093	102089	4517	4517	PR_FS	0			2023-03-21 16:00	2023-04-28 08:00
+%R	41397	102090	102088	4517	4517	PR_FS	0			2023-03-14 16:00	2023-04-27 08:00
+%R	41398	102093	102090	4517	4517	PR_FS	0			2023-03-15 16:00	2023-04-28 08:00
+%R	41399	102169	102093	4517	4517	PR_FS	0			2023-03-22 16:00	2023-05-01 08:00
+%R	41401	102049	102169	4517	4517	PR_FS	0			2023-05-04 16:00	2023-05-05 08:00
+%R	41402	102048	102049	4517	4517	PR_FS	0			2023-05-12 16:00	2023-05-15 08:00
+%R	41403	102050	102048	4517	4517	PR_FS	0			2023-05-24 16:00	2023-05-25 08:00
+%R	41404	102170	102050	4517	4517	PR_FS	0			2023-05-30 16:00	2023-05-31 08:00
+%R	41405	102171	102170	4517	4517	PR_FS	0			2023-06-05 16:00	2023-06-06 08:00
+%R	41407	102169	102181	4517	4517	PR_FS	0			2023-04-28 16:00	2023-05-01 08:00
+%R	41408	102128	102181	4517	4517	PR_FS	0			2023-04-28 16:00	2023-06-02 08:00
+%R	41409	102120	102119	4517	4517	PR_FS	0			2023-05-09 16:00	2023-05-22 08:00
+%R	41410	102128	102120	4517	4517	PR_FS	0			2023-05-10 16:00	2023-06-02 08:00
+%R	41411	102129	102128	4517	4517	PR_FS	0			2023-05-12 16:00	2023-06-07 08:00
+%R	41412	102127	102120	4517	4517	PR_FS	0			2023-05-10 16:00	2023-06-20 08:00
+%R	41413	102132	102133	4517	4517	PR_FS	0			2023-05-18 16:00	2023-06-22 08:00
+%R	41415	102123	102120	4517	4517	PR_FS	0			2023-05-10 16:00	2023-05-23 08:00
+%R	41416	102132	102123	4517	4517	PR_FS	0			2023-05-11 16:00	2023-06-22 08:00
+%R	41418	102159	102123	4517	4517	PR_FS	0			2023-05-11 16:00	2023-05-24 08:00
+%R	41419	102166	102120	4517	4517	PR_FS	0			2023-05-10 16:00	2023-05-26 08:00
+%R	41420	102167	102166	4517	4517	PR_FS	0			2023-05-17 16:00	2023-06-02 08:00
+%R	41421	102168	102167	4517	4517	PR_FS	0			2023-05-23 16:00	2023-06-08 08:00
+%R	41422	102163	102120	4517	4517	PR_FS	0			2023-05-10 16:00	2023-06-01 08:00
+%R	41423	102164	102163	4517	4517	PR_FS	0			2023-05-17 16:00	2023-06-07 08:00
+%R	41424	102165	102164	4517	4517	PR_FS	0			2023-05-18 16:00	2023-06-08 08:00
+%R	41425	102160	102111	4517	4517	PR_FS	0			2023-04-12 16:00	2023-06-09 08:00
+%R	41427	102161	102160	4517	4517	PR_FS	0			2023-05-18 16:00	2023-06-12 08:00
+%R	41428	102162	102161	4517	4517	PR_FS	0			2023-05-23 16:00	2023-06-15 08:00
+%R	41429	102136	102162	4517	4517	PR_FS	0			2023-05-25 16:00	2023-06-20 08:00
+%R	41430	102134	102136	4517	4517	PR_FS	0			2023-05-30 16:00	2023-06-22 08:00
+%R	41433	102173	102162	4517	4517	PR_FS	0			2023-05-25 16:00	2023-06-19 08:00
+%R	41434	102136	102173	4517	4517	PR_FS	0			2023-05-26 16:00	2023-06-20 08:00
+%R	41435	102155	102150	4517	4517	PR_FS	0			2023-05-04 16:00	2023-06-07 08:00
+%R	41436	102155	102120	4517	4517	PR_FS	0			2023-05-10 16:00	2023-06-07 08:00
+%R	41437	102135	102155	4517	4517	PR_FS	0			2023-05-12 16:00	2023-06-09 08:00
+%R	41438	102144	102159	4517	4517	PR_FS	0			2023-05-22 16:00	2023-06-02 08:00
+%R	41439	102152	102144	4517	4517	PR_FS	0			2023-05-25 16:00	2023-06-07 08:00
+%R	41441	102153	102152	4517	4517	PR_FS	0			2023-05-26 16:00	2023-06-08 08:00
+%R	41442	102135	102153	4517	4517	PR_FS	0			2023-05-29 16:00	2023-06-09 08:00
+%R	41443	102154	102153	4517	4517	PR_FS	0			2023-05-29 16:00	2023-06-13 08:00
+%R	41444	102172	102154	4517	4517	PR_FS	0			2023-05-30 16:00	2023-06-14 08:00
+%R	41446	102130	102129	4517	4517	PR_FS	0			2023-05-16 16:00	2023-06-08 08:00
+%R	41447	102160	102130	4517	4517	PR_FS	0			2023-05-17 16:00	2023-06-09 08:00
+%R	41448	102127	102133	4517	4517	PR_FS	0			2023-05-18 16:00	2023-06-20 08:00
+%R	41450	102133	102129	4517	4517	PR_FS	0			2023-05-16 16:00	2023-06-16 08:00
+%R	41451	102180	102179	4517	4517	PR_FS	0			2023-02-06 16:00	2023-06-06 08:00
+%R	41452	102180	102128	4517	4517	PR_FS	0			2023-05-12 16:00	2023-06-06 08:00
+%R	41453	102129	102180	4517	4517	PR_FS	0			2023-05-15 16:00	2023-06-07 08:00
+%R	41454	102088	102087	4517	4517	PR_FS	0			2023-03-13 16:00	2023-04-25 08:00
+%R	41455	102071	102068	4517	4517	PR_FS	0			2023-01-06 08:00	2023-01-23 08:00
+%R	41456	102066	102065	4517	4517	PR_FS	0			2023-01-04 16:00	2023-01-05 08:00
+%R	41457	102067	102066	4517	4517	PR_FS	0			2023-01-11 16:00	2023-01-12 08:00
+%R	41458	102061	102060	4517	4517	PR_FS	0			2022-12-22 16:00	2022-12-23 08:00
+%R	41459	102063	102062	4517	4517	PR_FS	0			2022-12-29 16:00	2022-12-30 08:00
+%R	41460	102064	102063	4517	4517	PR_FS	0			2023-01-03 16:00	2023-01-03 16:00
+%R	41461	102065	102064	4517	4517	PR_FS	0			2023-01-04 08:00	2023-01-04 08:00
+%R	41462	102062	102061	4517	4517	PR_FS	0			2022-12-23 16:00	2022-12-26 08:00
+%R	41463	102172	102171	4517	4517	PR_FS	0			2023-06-13 16:00	2023-06-14 08:00
+%R	41464	102045	102172	4517	4517	PR_FS	0			2023-06-22 16:00	2023-06-22 16:00
+%R	41465	102172	102156	4517	4517	PR_FS	0			2023-06-01 16:00	2023-06-14 08:00
+%R	41466	102135	102168	4517	4517	PR_FS	0			2023-05-24 16:00	2023-06-09 08:00
+%R	41467	102135	102165	4517	4517	PR_FS	0			2023-05-19 16:00	2023-06-09 08:00
+%E
